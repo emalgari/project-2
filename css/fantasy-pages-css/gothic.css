@@ -272,3 +272,12 @@ body {
 .title {
   font-size: 12px;
 }
+
+.return {
+  scale: 2;
+  color: white;
+}
+.return:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}

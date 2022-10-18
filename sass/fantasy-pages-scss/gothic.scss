@@ -112,3 +112,14 @@ width: 100%;
 .title {
   font-size: 12px;
 }
+
+
+.return {
+    scale: 2;
+    color: white;
+
+    &:hover {
+        transform: scale(1.25);
+
+    }
+}
