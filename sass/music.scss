@@ -1,0 +1,37 @@
+
+.main-container{
+    font-family: 'Open Sans', sans-serif;;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.music-categories{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+}
+
+}
+
+.btn-category{
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: darkblue;
+    width: 160px;
+    height: 3em;
+    box-shadow: 2px 2px 6px darkgray;
+
+&:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+}
+
+}
