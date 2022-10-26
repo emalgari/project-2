@@ -1,8 +1,13 @@
 @charset "UTF-8";
+.bold {
+  font-weight: bold;
+}
+
 .main-container {
   font-family: "Open Sans", sans-serif;
   max-width: 1000px;
   width: 100%;
+  height: 85vh;
   margin: auto;
   padding-top: 50px;
   display: flex;
@@ -41,6 +46,12 @@ ul.breadcrumb li a:hover {
 }
 
 /*end breadcrumb*/
+.welcome {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
 .btn-category {
   font-weight: bold;
   color: white;
@@ -193,3 +204,9 @@ ul.breadcrumb li a:hover {
 }
 
 /*end bookpage*/
+/*footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}*/
