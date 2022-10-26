@@ -27,6 +27,120 @@ h1 {
   transition: all 1s ease;
   background: #ecf0f1;
 }
+<<<<<<< HEAD
+#menu .logo {
+  margin-top: 1%;
+  max-width: 100px;
+  width: 100%;
+}
+#menu .logo :hover {
+  background: #71A896;
+  border-radius: 100%;
+  transition: all 1s ease;
+}
+#menu .main-list {
+  background: #ecf0f1;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+#menu ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li.active {
+  background: #b0d4c8;
+  border-radius: 5px;
+}
+#menu ul li:hover {
+  /*background:#f6f6f6*/
+  background: #71A896;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+#menu ul .menu-text {
+  display: block;
+  text-decoration: none;
+  padding: 0 1em;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600%;
+  font-size: 90%;
+  /* identical to box height */
+  letter-spacing: 1%;
+  color: #1c1b1b;
+}
+#menu ul a {
+  display: block;
+  text-decoration: none;
+  padding: 0 1em;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 120%;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #1c1b1b;
+}
+#menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: linear-gradient(0.66deg, #71A896 -13.76%, #3E8383 131.6%);
+  padding: 0;
+}
+#menu ul ul li {
+  float: none;
+  width: 200px;
+  border-left: 3px solid linear-gradient(0.66deg, #71A896 -13.76%, #3E8383 131.6%);
+}
+#menu ul ul li:hover {
+  border: 1px solid #3E8383;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #1c1b1b;
+  width: 105%;
+  transition: all 1s ease;
+}
+#menu ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+#menu ul ul ul {
+  top: -5px;
+  left: 100%;
+}
+#menu ul li:hover > ul {
+  display: block;
+  transition: all 1s ease;
+  border-radius: 5px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #1c1b1b;
+=======
 
 .navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link {
   color: black;
@@ -36,6 +150,7 @@ h1 {
 .navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link:hover {
   color: #5f5f60;
   border-bottom: 1px solid #5f5f60;
+>>>>>>> 6470fde94552cf10c5fbf1296a0362118416cba1
 }
 /******************Navigation bar End***************/
 
@@ -49,13 +164,11 @@ h1 {
   align-items: center;
   gap: 1rem;
 }
-
 .hero-section .hero-text {
   min-width: 200px;
   width: 100%;
   height: 30%;
 }
-
 .hero-section .hero-text h1 {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -65,7 +178,6 @@ h1 {
   text-align: center;
   color: #404041;
 }
-
 .hero-section .hero-text p {
   padding: 2%;
   font-family: "Open Sans", sans-serif;
@@ -76,7 +188,31 @@ h1 {
   letter-spacing: 1px;
   color: #868686;
 }
+<<<<<<< HEAD
+.hero-section .hero-text button {
+  max-width: 150px;
+  width: 100%;
+  min-height: 40px;
+  height: 100%;
+  background: linear-gradient(180deg, #F7C9AA 0%, #FF717A 100%);
+  border-radius: 45px;
+  border-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88%;
+  /* identical to box height, or 380% */
+  text-align: center;
+  color: #FFFFFF;
+}
+.hero-section .hero-text button:hover {
+  cursor: pointer;
+  background: #FF717A;
+  color: #251f1f;
+}
+=======
 
+>>>>>>> 6470fde94552cf10c5fbf1296a0362118416cba1
 .hero-section .hero-image {
   max-width: 1179px;
   width: 100%;
@@ -86,7 +222,6 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
 .hero-section .hero-image img {
   width: 90%;
 }
@@ -248,6 +383,10 @@ h1 {
   .hero-image img {
     width: 40%;
   }
+<<<<<<< HEAD
+}
+/***************************Hero-section for small screens end*******************************//*# sourceMappingURL=main.css.map */
+=======
   /***************Hero section end*******************/
 
   /***************Poetry section*******************/
@@ -278,3 +417,4 @@ h1 {
 }
 /******************For mobile devices end**********************/
 /***************************Media Queries End**************************/
+>>>>>>> 6470fde94552cf10c5fbf1296a0362118416cba1
