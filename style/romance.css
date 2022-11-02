@@ -35,3 +35,39 @@ h1 {
 }
 
 /******************Navigation bar End***************/
+main hr {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.title {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.title h1 {
+  text-align: center;
+  color: #be9b9b;
+  font-size: 3em;
+  font-family: "Playfair Display", serif;
+}
+.title p {
+  text-align: center;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600%;
+}
+
+.book-1 {
+  max-width: 1200px;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.book-1 .flex-item-1 {
+  border: 1px solid black;
+}
