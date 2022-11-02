@@ -9,179 +9,118 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ccc2edd016.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="/css/horror/splatterpunk.css">
+    <link rel="stylesheet" href="/css/horror-pages-css/splatterpunk.css">
     <link rel="shortcut icon" href="../images/logo.svg" type="svg">
     <title>Splatterpunk Horror</title>
 </head>
 <body>
 
     <section id="navigation-menu">
-        <nav id="menu">
-            <a href="#" class="logo"><img src="/images/logo.svg" alt="logo"></a>
-            <ul class="main-list">
-                <li class="active"><a class="menu-text" href="#">Home</a></li>
-                <!-------------------Catagories/Sub menu-------------------->
-                <li>
-                    <a class="menu-text" href="#">Categories</a>
-                    <ul>
-                        <li><a href="#">Catagory-1 &nbsp;<i class="fa-solid fa-angles-right"></i></a>
-                        <ul>
-                            <li>
-                                <a href="#">Deep Menu 1 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-    
-                                <ul>
-                                    <li><a href="#">Sub Deep 1</a></li>
-                                    <li><a href="#">Sub Deep 2</a></li>
-                                    <li><a href="#">Sub Deep 3</a></li>
-                                </ul>
-    
-                            </li>
-    
-                            <li>
-                                <a href="#">Deep Menu 2 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-    
-                                <ul>
-                                    <li><a href="#">Sub Deep 1</a></li>
-                                    <li><a href="#">Sub Deep 2</a></li>
-                                    <li><a href="#">Sub Deep 3</a></li>
-                                </ul>
-    
-                            </li>
-    
-                            <li>
-                                <a href="#">Deep Menu 3 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-    
-                                <ul>
-                                    <li><a href="#">Sub Deep 1</a></li>
-                                    <li><a href="#">Sub Deep 2</a></li>
-                                    <li><a href="#">Sub Deep 3</a></li>
-                                </ul>
-    
-                            </li>
+        <nav class="navbar navbar-expand-sm bg-transperent shadow-sm">
+
+            <div class="container-fluid align-item-center px-3">
+
+                <a class="navbar-brand" href="./index.html">
+                    <img src="/images/logos/logo.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navigation">
+
+                    <ul class="navbar-nav gap-lg-4 gap-sm-1">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown" style="transition: all 1s ease;">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item" href="./pages/poetry.html">Poetry</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="./pages/romance-pages/romance.html">Romance</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Horror</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Music</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item d-none d-lg-block d-md-block">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item d-none d-lg-block d-md-block">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
                     </ul>
-                </li>
-    
-                <li><a href="#">Catagory-2 &nbsp;<i class="fa-solid fa-angles-right"></i></a>
-    
-                <ul>
-                    <li>
-                        <a href="#">Deep Menu 1 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                        <ul>
-                            <li><a href="#">Sub Deep 1</a></li>
-                            <li><a href="#">Sub Deep 2</a></li>
-                            <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                    </li>
-      
-                    <li>
-                        <a href="#">Deep Menu 2 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                        <ul>
-                            <li><a href="#">Sub Deep 1</a></li>
-                            <li><a href="#">Sub Deep 2</a></li>
-                            <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                    </li>
-      
-                    <li>
-                        <a href="#">Deep Menu 3 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                        <ul>
-                            <li><a href="#">Sub Deep 1</a></li>
-                            <li><a href="#">Sub Deep 2</a></li>
-                            <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                    </li>
-                </ul>
-            </li>
-    
-                <li><a href="#">Catagory-3 &nbsp;<i class="fa-solid fa-angles-right"></i></a>
-                    <ul>
-                      <li>
-                          <a href="#">Deep Menu 1 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                          <ul>
-                              <li><a href="#">Sub Deep 1</a></li>
-                              <li><a href="#">Sub Deep 2</a></li>
-                              <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                      </li>
-      
-                      <li>
-                          <a href="#">Deep Menu 2 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                          <ul>
-                              <li><a href="#">Sub Deep 1</a></li>
-                              <li><a href="#">Sub Deep 2</a></li>
-                              <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                      </li>
-      
-                      <li>
-                          <a href="#">Deep Menu 3 &nbsp;<i class="fa-solid fa-angle-right"></i></a>
-      
-                          <ul>
-                              <li><a href="#">Sub Deep 1</a></li>
-                              <li><a href="#">Sub Deep 2</a></li>
-                              <li><a href="#">Sub Deep 3</a></li>
-                        </ul>
-      
-                      </li>
-                    </ul>
-                </li>
-            
-                </ul>
-            </li>
+
+                </div>
+
+            </div>
+        </nav>
     </section>
 
     <section id="box-content">
         <div class="menu">
             <div class="box">
                 <div>
-                    <h2 class="menu-browse">Gothic Horror</h2>
+                    <h2 class="menu-browse">Splatterpunk Horror</h2>
                 </div>
                 <div class="book-menu">
                     <div class="goth-book">
-                        <a href="#" class=""><img src="/images/horror-books/gothic-1.jpg" alt="" class="books" ></a>
-                        <h2 class="title">Road to
-                            Death Lake town
+                        <a href="#" class=""><img src="/images/horror-books/splatterpunk-books/splat-book-1.jpg" alt="" class="books" ></a>
+                        <h2 class="title">Ghost Town
                         </h2>
                         <p class="author">Author</p>
                     </div>
                     <div class="goth-book">
-                        <a href="#" class=""><img src="/images/horror-books/gothic-2.jpg" alt="" class="books" ></a>
-                        <h2 class="title">Fire to fire, flame to flame
+                        <a href="#" class=""><img src="/images/horror-books/splatterpunk-books/splat-book-2.jpg" alt="" class="books" ></a>
+                        <h2 class="title">Halloween As We Know It
                         </h2>
                         <p class="author">Author</p>
                     </div>
                           <div class="goth-book">
-                            <a href="#" class=""><img src="/images/horror-books/gothic-3.jpg" alt="" class="books" ></a>
-                            <h2 class="title">The girl that stole my mind
+                            <a href="#" class=""><img src="/images/horror-books/splatterpunk-books/splat-book-3.jpg" alt="" class="books" ></a>
+                            <h2 class="title">Tonight We Riot
                             </h2>
                             <p class="author">Author</p>
                         </div>    
                             <div class="goth-book">
-                                <a href="#" class=""><img src="/images/horror-books/gothic-4.jpg" alt="" class="books" ></a>
-                                <h2 class="title">One prayer away from death
+                                <a href="#" class=""><img src="/images/horror-books/splatterpunk-books/splat-book-4.jpg" alt="" class="books" ></a>
+                                <h2 class="title">I'm Not Alone
                                 </h2>
                                 <p class="author">Author</p>
                             </div>
              
                                 <div class="goth-book">
-                                    <a href="#" class=""><img src="/images/horror-books/gothic-5.jpg" alt="" class="books" ></a>
-                                    <h2 class="title">The monster took him
+                                    <a href="#" class=""><img src="/images/horror-books/splatterpunk-books/splat-book-5.jpg" alt="" class="books" ></a>
+                                    <h2 class="title">Lonely House
                                     </h2>
                                     <p class="author">Author</p>
                                 </div>
             </div>
             <div>
-             <a href="../fantasy.html" class=""> <i class="fa-solid fa-arrow-left-long return"></i></a>
+             <a href="../horror.html" class=""> <i class="fa-solid fa-arrow-left-long return"></i></a>
             </div>
         </div>
     </section>

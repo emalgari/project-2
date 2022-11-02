@@ -161,7 +161,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-image: url("/images/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+  background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
   max-width: 1800px;
   width: 100%;
   min-height: 1440px;
@@ -180,7 +180,7 @@ body {
 }
 
 .box {
-  background-image: url(/images/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg);
+  background-image: url("/images/horror/nonsup.jpg");
   background-size: cover;
   background-position: center;
   max-width: 1200px;
@@ -199,7 +199,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: white;
   border-radius: 5px;
   border: 1px black solid;
 }

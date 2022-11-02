@@ -161,7 +161,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-image: url("/images/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+  background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
   max-width: 1800px;
   width: 100%;
   min-height: 1440px;
@@ -180,7 +180,7 @@ body {
 }
 
 .box {
-  background-image: url(/images/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg);
+  background-image: url("/images/horror/gothic-horror.jpg");
   background-size: cover;
   background-position: center;
   max-width: 1200px;
@@ -189,9 +189,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -199,44 +199,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: white;
+  text-shadow: black 3px 3px 3px;
   border-radius: 5px;
-  border: 1px black solid;
-}
-
-.horror-menu {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-}
-
-.menu-browse {
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.menuitem {
-  padding: 2px;
-}
-
-.btn-horror {
-  width: 100px;
-  height: 40px;
-  background-color: grey;
-  border: none;
-  color: black;
-  font-weight: bold;
-  -webkit-box-shadow: 2px 2px black;
-          box-shadow: 2px 2px black;
-}
-.btn-horror:hover {
-  background-color: rgb(99, 98, 98);
-}
-.btn-horror:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  border: 1px white solid;
 }
 
 .horror-menu {
