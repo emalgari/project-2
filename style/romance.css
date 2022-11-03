@@ -79,3 +79,8 @@ main hr {
   border-radius: 50%;
   border: 3px ridge #be9b9b;
 }
+.book-1 button {
+  color: #be9b9b;
+  display: block;
+  margin: auto;
+}
