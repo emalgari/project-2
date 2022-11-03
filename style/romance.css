@@ -45,6 +45,8 @@ main hr {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .title h1 {
   text-align: center;
@@ -58,6 +60,7 @@ main hr {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600%;
+  padding: 20px;
 }
 
 .book-1 {
@@ -91,12 +94,12 @@ main hr {
   padding: 5px 25px;
   border-radius: 10px;
   border: 2px solid #be9b9b;
+  transition: all ease-out 0.5s;
 }
 
 button:hover {
   background-color: #be9b9b;
   color: #ecf0f1;
-  transition: all ease-out 0.5s;
 }
 
 h2 {
@@ -104,4 +107,41 @@ h2 {
   margin-top: 30px;
   font-family: "Open Sans", sans-serif;
   color: #be9b9b;
+}
+
+.image-item {
+  position: relative;
+}
+.image-item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.image-item .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-item:hover .overlay {
+  opacity: 0.7;
+}
+
+.image-item:hover .text {
+  opacity: 1;
 }
