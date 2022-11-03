@@ -70,7 +70,6 @@ main hr {
   align-items: center;
 }
 .book-1 .flex-item-1 {
-  border: 1px solid black;
   max-width: 500px;
 }
 .book-1 img {
@@ -79,8 +78,30 @@ main hr {
   border-radius: 50%;
   border: 3px ridge #be9b9b;
 }
+.book-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
 .book-1 button {
   color: #be9b9b;
   display: block;
   margin: auto;
+  font-size: 1.5em;
+  padding: 5px 25px;
+  border-radius: 10px;
+  border: 2px solid #be9b9b;
+}
+
+button:hover {
+  background-color: #be9b9b;
+  color: #ecf0f1;
+  transition: all ease-out 0.5s;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #be9b9b;
 }
