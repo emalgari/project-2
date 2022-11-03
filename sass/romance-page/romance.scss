@@ -38,6 +38,7 @@ main hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     .flex-item-1 {
       
       max-width: 500px;
@@ -110,4 +111,40 @@ h2 {
 }
 .image-item:hover .text {
   opacity: 1;
+}
+
+@media screen and (max-width: 1250px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  .book-1 {
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    max-width: 800px;
+    height: 600px;
+    p {
+      margin-top: 40px;
+    }
+  }
+  h2 {
+    margin-top: 100px;
+  }
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 550px;
+  }
+  .book-1 {
+    max-width: 550px;
+  }
 }
