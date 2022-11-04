@@ -1,0 +1,59 @@
+/******************Navigation bar***************/
+@import '../landing-page/nav-bar'; 
+/******************Navigation bar End***************/
+
+main hr {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+  }
+.title {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    h1 {
+      text-align: center;
+      color: #be9b9b;
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+    }
+    p {
+      text-align: center;
+      font-size: 21px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: 600%;
+      padding: 20px;
+    }
+  }
+button {
+    color: #be9b9b;
+      display: block;
+      margin: auto;
+      font-size: 1.5em;
+      padding: 5px 25px;
+      border-radius: 10px;
+      border: 2px solid #be9b9b;
+      transition: all ease-out 0.5s;
+}
+button:hover {
+    background-color: #be9b9b;
+    color: $bg-color;
+  }
+
+@media screen and (max-width: 1250px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 550px;
+  }
+}
