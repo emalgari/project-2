@@ -25,16 +25,28 @@ main hr {
   display: flex;
   justify-content: space-around;
   .flex-item {
-    border: 1px solid black;
+    
     img {
       display: block;
       margin: auto;
       border: 5px inset #be9b9b;
     }
     p {
-      max-width: 350px;
+      max-width: 360px;
       text-align: center;
       font-family: $primary-font;
+      font-size: 1.2em;
+      padding-bottom: 30px;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+      
+      li {
+      }
     }
   }
   
@@ -48,6 +60,8 @@ button {
       border-radius: 10px;
       border: 2px solid #be9b9b;
       transition: all ease-out 0.5s;
+      margin-top: 50px;
+      margin-bottom: 50px;
 }
 button:hover {
     background-color: #be9b9b;
