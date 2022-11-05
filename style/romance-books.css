@@ -78,6 +78,10 @@ main hr {
   padding: 0;
   margin-top: 15px;
 }
+.book-flex .flex-item ul .fa-solid {
+  color: rgb(222, 189, 2);
+}
+
 button {
   color: #be9b9b;
   display: block;
