@@ -63,6 +63,8 @@ main hr {
   display: block;
   margin: auto;
   border: 5px inset #be9b9b;
+  width: 290px;
+  height: 430px;
 }
 .book-flex .flex-item p {
   max-width: 360px;
