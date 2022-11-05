@@ -54,13 +54,23 @@ main hr {
   font-size: 3em;
   font-family: "Playfair Display", serif;
 }
-.title p {
+
+.book-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.book-flex .flex-item {
+  border: 1px solid black;
+}
+.book-flex .flex-item img {
+  display: block;
+  margin: auto;
+  border: 5px inset #be9b9b;
+}
+.book-flex .flex-item p {
+  max-width: 350px;
   text-align: center;
-  font-size: 21px;
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600%;
-  padding: 20px;
 }
 
 button {

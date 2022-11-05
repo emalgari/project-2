@@ -6,12 +6,12 @@ main hr {
     max-width: 1400px;
     width: 100%;
     margin: auto;
-  }
+}
+
 .title {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     h1 {
@@ -20,15 +20,25 @@ main hr {
       font-size: 3em;
       font-family: 'Playfair Display', serif;
     }
+}
+.book-flex {
+  display: flex;
+  justify-content: space-around;
+  .flex-item {
+    border: 1px solid black;
+    img {
+      display: block;
+      margin: auto;
+      border: 5px inset #be9b9b;
+    }
     p {
+      max-width: 350px;
       text-align: center;
-      font-size: 21px;
       font-family: $primary-font;
-      font-style: normal;
-      font-weight: 600%;
-      padding: 20px;
     }
   }
+  
+}
 button {
     color: #be9b9b;
       display: block;
@@ -42,7 +52,9 @@ button {
 button:hover {
     background-color: #be9b9b;
     color: $bg-color;
-  }
+}
+
+
 
 @media screen and (max-width: 1250px) {
   .title {
