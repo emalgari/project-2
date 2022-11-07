@@ -106,12 +106,13 @@ body {
 }
 
 .btn-horror {
-  width: 100px;
+  width: 125px;
   height: 40px;
   background-color: grey;
   border: none;
   color: black;
   font-weight: bold;
+  font-size: 14px;
   -webkit-box-shadow: 2px 2px black;
           box-shadow: 2px 2px black;
 }

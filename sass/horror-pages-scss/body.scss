@@ -1,4 +1,4 @@
-@import '../nav-bar';
+@import 'nav-bar';
 $primary-font: 'Open Sans', sans-serif;
 
 body {
@@ -144,6 +144,7 @@ width: 100%;
 
 .title {
   font-size: 12px;
+  margin-top: 15px;
 }
 
 
