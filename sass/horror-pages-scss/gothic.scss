@@ -1,4 +1,4 @@
-@import '_nav-bar.scss';
+@import 'nav-bar';
 $primary-font: 'Open Sans', sans-serif;
 
 body {
@@ -96,6 +96,7 @@ width: 100%;
 .books {
   width: 80px;
   height: 100px;
+  margin-bottom: 25px;
 }
 
 
