@@ -1,4 +1,4 @@
-@import 'nav-bar';
+@import 'main.scss';
 $primary-font: 'Open Sans', sans-serif;
 
 body {
@@ -17,6 +17,8 @@ body {
 
 
 }
+
+
 
 .menu {
     display: flex;
