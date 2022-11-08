@@ -105,7 +105,7 @@ body {
 }
 
 .menuitem {
-  padding: 2px;
+  padding: 5px;
 }
 
 .btn-horror {
@@ -116,6 +116,7 @@ body {
   color: black;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 5px;
   -webkit-box-shadow: 2px 2px black;
           box-shadow: 2px 2px black;
 }

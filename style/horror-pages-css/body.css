@@ -109,25 +109,6 @@ body {
   padding: 2px;
 }
 
-.btn-horror {
-  width: 100px;
-  height: 40px;
-  background-color: grey;
-  border: none;
-  color: white;
-  text-shadow: black 2px 2px 2px;
-  font-weight: bold;
-  -webkit-box-shadow: 2px 2px black;
-          box-shadow: 2px 2px black;
-}
-.btn-horror:hover {
-  background-color: rgb(99, 98, 98);
-}
-.btn-horror:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 .book-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,6 +143,11 @@ body {
   font-weight: bold;
 }
 
+.author {
+  font-weight: 600;
+  -webkit-text-stroke: 0.2px white;
+}
+
 .return {
   scale: 2;
   color: black;
@@ -179,10 +165,6 @@ body {
 .breadcrumb {
   -ms-flex-item-align: start;
       align-self: flex-start;
-}
-
-.author {
-  font-weight: 500;
 }
 
 ul.breadcrumb {
