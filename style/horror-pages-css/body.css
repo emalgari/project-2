@@ -64,7 +64,7 @@ body {
 }
 
 .box {
-  background-image: url("/images/horror/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg");
+  background-image: url("/images/horror/horror-img.jpg");
   background-size: cover;
   background-position: center;
   max-width: 1200px;
@@ -83,7 +83,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: white;
   border-radius: 5px;
   border: 1px black solid;
 }
@@ -145,12 +145,11 @@ body {
 
 .author {
   font-weight: 600;
-  -webkit-text-stroke: 0.2px white;
 }
 
 .return {
   scale: 2;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .return:hover {
   -webkit-transform: scale(1.25);
@@ -179,12 +178,12 @@ ul.breadcrumb li {
 
 ul.breadcrumb li + li:before {
   padding: 8px;
-  color: black;
+  color: white;
   content: "/ ";
 }
 
 ul.breadcrumb li a {
-  color: #000000;
+  color: white;
   text-decoration: none;
 }
 
