@@ -62,27 +62,7 @@ body {
 .menuitem {
     padding: 2px;
 }
-.btn-horror {
 
-    width: 100px;
-    height: 40px;
-    background-color: grey;
-    border: none;
-    color: white;
-    text-shadow: black 2px 2px 2px;
-    font-weight: bold;
-
-    box-shadow: 2px 2px black;
-
-    &:hover {
-        background-color: rgb(99, 98, 98);
-    }
-    &:active {
-        transform: scale(1.05);
-    }
-
-
-}
 
 
 .book-menu {
@@ -113,9 +93,13 @@ width: 100%;
 
 
 .title {
-  font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+.author {
+    font-weight:500;
 }
-
 
 .return {
     scale: 2;
@@ -135,9 +119,7 @@ width: 100%;
 .breadcrumb {
     align-self: flex-start;
 }
-.author {
-    font-weight:500;
-}
+
 
  ul.breadcrumb {
     padding: 10px 16px;
