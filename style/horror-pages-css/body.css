@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -108,25 +109,6 @@ body {
   padding: 2px;
 }
 
-.btn-horror {
-  width: 100px;
-  height: 40px;
-  background-color: grey;
-  border: none;
-  color: white;
-  text-shadow: black 2px 2px 2px;
-  font-weight: bold;
-  -webkit-box-shadow: 2px 2px black;
-          box-shadow: 2px 2px black;
-}
-.btn-horror:hover {
-  background-color: rgb(99, 98, 98);
-}
-.btn-horror:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 .book-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,14 +139,56 @@ body {
 }
 
 .title {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: 600;
+  -webkit-text-stroke: 0.2px white;
 }
 
 .return {
   scale: 2;
-  color: white;
+  color: black;
 }
 .return:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+}
+.return-arrow {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 25px;
+}
+
+.breadcrumb {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/ ";
+}
+
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #7e0101;
+  text-decoration: underline;
 }

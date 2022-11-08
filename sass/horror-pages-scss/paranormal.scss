@@ -112,8 +112,10 @@ width: 100%;
 
 
 .title {
-  font-size: 12px;
-}
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
 
 
 .return {
@@ -124,4 +126,49 @@ width: 100%;
         transform: scale(1.25);
 
     }
+    &-arrow {
+        align-self: flex-start;
+        margin-left: 25px;
+    }
+
 }
+
+
+
+
+.breadcrumb {
+    align-self: flex-start;
+}
+.author {
+    font-weight:500;
+}
+
+ ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  
+
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(248, 245, 245);
+    content: "/\00a0";
+  }
+  
+
+
+  ul.breadcrumb li a {
+    color: #f7f7f7;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #7e0101;
+    text-decoration: underline;
+  } 
