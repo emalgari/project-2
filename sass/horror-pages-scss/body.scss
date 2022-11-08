@@ -1,4 +1,4 @@
-@import 'main.scss';
+@import '../nav-bar';
 $primary-font: 'Open Sans', sans-serif;
 
 body {
@@ -7,7 +7,6 @@ body {
     margin: auto;
     // background-image: url("../images/horror-img.jpg");
     background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
-    max-width: 1800px;
     width: 100%;
     min-height: 1440px;
     background-position: center;
@@ -70,41 +69,6 @@ body {
     height: 40px;
     background-color: grey;
     border: none;
-    color: black;
-    font-weight: bold;
-
-    box-shadow: 2px 2px black;
-
-    &:hover {
-        background-color: rgb(99, 98, 98);
-    }
-    &:active {
-        transform: scale(1.05);
-    }
-
-
-}
-
-.horror-menu {
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
-
-.menu-browse {
-    font-weight: bold;
-    font-size: 35px;
-}
-
-.menuitem {
-    padding: 2px;
-}
-.btn-horror {
-
-    width: 100px;
-    height: 40px;
-    background-color: grey;
-    border: none;
     color: white;
     text-shadow: black 2px 2px 2px;
     font-weight: bold;
@@ -135,6 +99,7 @@ width: 100%;
 .books {
   width: 80px;
   height: 100px;
+  margin-bottom: 25px;
 }
 
 
@@ -150,10 +115,7 @@ width: 100%;
 
 .title {
   font-size: 12px;
-  margin-top: 15px;
 }
-
-
 
 
 .return {

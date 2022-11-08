@@ -1,13 +1,11 @@
-@import 'nav-bar';
+@import '../nav-bar';
 $primary-font: 'Open Sans', sans-serif;
-
 body {
     display: flex;
     flex-direction: column;
     margin: auto;
     // background-image: url("../images/horror-img.jpg");
     background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
-    max-width: 1800px;
     width: 100%;
     min-height: 1440px;
     background-position: center;
