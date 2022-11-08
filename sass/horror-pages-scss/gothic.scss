@@ -1,12 +1,15 @@
 @import '../nav-bar';
 $primary-font: 'Open Sans', sans-serif;
-
 body {
     display: flex;
     flex-direction: column;
     margin: auto;
     // background-image: url("../images/horror-img.jpg");
     background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+<<<<<<<< HEAD:sass/horror-pages-scss/paranormal.scss
+
+========
+>>>>>>>> David:sass/horror-pages-scss/gothic.scss
     width: 100%;
     min-height: 1440px;
     background-position: center;
@@ -26,7 +29,11 @@ body {
 .box {
     // background-color: rgb(37, 32, 32);
     // border: rgb(116, 115, 115) 2px solid;
+<<<<<<<< HEAD:sass/horror-pages-scss/paranormal.scss
     background-image: url("/images/horror/paranormal.jpg");
+========
+    background-image: url("/images/horror/gothic-horror.jpg");
+>>>>>>>> David:sass/horror-pages-scss/gothic.scss
     background-size: cover;
     background-position: center;
     max-width: 1200px;
@@ -58,6 +65,45 @@ body {
     margin-bottom: 75px;
 }
 
+<<<<<<<< HEAD:sass/horror-pages-scss/paranormal.scss
+
+.menuitem {
+    padding: 2px;
+}
+.btn-horror {
+
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+    border: none;
+    color: black;
+    font-weight: bold;
+
+    box-shadow: 2px 2px black;
+
+    &:hover {
+        background-color: rgb(99, 98, 98);
+    }
+    &:active {
+        transform: scale(1.05);
+    }
+
+
+}
+
+.horror-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu-browse {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+========
+>>>>>>>> David:sass/horror-pages-scss/gothic.scss
 .menuitem {
     padding: 2px;
 }
@@ -116,6 +162,10 @@ width: 100%;
 }
 
 
+<<<<<<<< HEAD:sass/horror-pages-scss/paranormal.scss
+
+========
+>>>>>>>> David:sass/horror-pages-scss/gothic.scss
 .return {
     scale: 2;
     color: white;

@@ -26,7 +26,7 @@ body {
 .box {
     // background-color: rgb(37, 32, 32);
     // border: rgb(116, 115, 115) 2px solid;
-    background-image: url("/images/horror/paranormal.jpg");
+    background-image: url("/images/horror/nonsup.jpg");
     background-size: cover;
     background-position: center;
     max-width: 1200px;
@@ -42,6 +42,12 @@ body {
     // box-shadow: 5px 5px rgb(116, 115, 115)
 }
 
+
+.horror-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
 
 .horror-menu {
     list-style: none;
