@@ -28,7 +28,7 @@ body {
 .box {
     // background-color: rgb(37, 32, 32);
     // border: rgb(116, 115, 115) 2px solid;
-    background-image: url("/images/horror/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg");
+    background-image: url("/images/horror/horror-img.jpg");
     background-size: cover;
     background-position: center;
     max-width: 1200px;
@@ -38,7 +38,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: white;
     border-radius: 5px;
     border: 1px black solid;
     // box-shadow: 5px 5px rgb(116, 115, 115)
@@ -63,27 +63,7 @@ body {
 .menuitem {
     padding: 2px;
 }
-.btn-horror {
 
-    width: 100px;
-    height: 40px;
-    background-color: grey;
-    border: none;
-    color: white;
-    text-shadow: black 2px 2px 2px;
-    font-weight: bold;
-
-    box-shadow: 2px 2px black;
-
-    &:hover {
-        background-color: rgb(99, 98, 98);
-    }
-    &:active {
-        transform: scale(1.05);
-    }
-
-
-}
 
 
 .book-menu {
@@ -114,16 +94,61 @@ width: 100%;
 
 
 .title {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
+.author {
+    font-weight:600;
+}
 
 .return {
     scale: 2;
-    color: white;
+    color: rgb(255, 255, 255);
 
     &:hover {
         transform: scale(1.25);
 
     }
+    &-arrow {
+        align-self: flex-start;
+        margin-left: 25px;
+    }
 }
+
+
+
+.breadcrumb {
+    align-self: flex-start;
+}
+
+
+ ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  
+
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+  }
+  
+
+
+  ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #7e0101;
+    text-decoration: underline;
+  } 

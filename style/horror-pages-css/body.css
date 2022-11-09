@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -63,7 +64,7 @@ body {
 }
 
 .box {
-  background-image: url("/images/horror/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg");
+  background-image: url("/images/horror/horror-img.jpg");
   background-size: cover;
   background-position: center;
   max-width: 1200px;
@@ -82,7 +83,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: white;
   border-radius: 5px;
   border: 1px black solid;
 }
@@ -106,25 +107,6 @@ body {
 
 .menuitem {
   padding: 2px;
-}
-
-.btn-horror {
-  width: 100px;
-  height: 40px;
-  background-color: grey;
-  border: none;
-  color: white;
-  text-shadow: black 2px 2px 2px;
-  font-weight: bold;
-  -webkit-box-shadow: 2px 2px black;
-          box-shadow: 2px 2px black;
-}
-.btn-horror:hover {
-  background-color: rgb(99, 98, 98);
-}
-.btn-horror:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .book-menu {
@@ -157,14 +139,55 @@ body {
 }
 
 .title {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: 600;
 }
 
 .return {
   scale: 2;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .return:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+}
+.return-arrow {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 25px;
+}
+
+.breadcrumb {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: white;
+  content: "/ ";
+}
+
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #7e0101;
+  text-decoration: underline;
 }
